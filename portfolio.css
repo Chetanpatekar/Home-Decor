@@ -1,0 +1,209 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default Setting */
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+/* Flex Container for row layout */
+.row {
+  display: flex;
+}
+
+.h-100{
+  height: 100vh;
+}
+
+/* Sidebar Nav */
+.navbar {
+  width: 220px;
+  height: 100vh;
+  background-color: rgb(49, 185, 230);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.navbar h1 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.navbtn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 0;
+  transition: 0.3s;
+}
+
+.navbtn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Content Area */
+.content {
+  margin-left: 250px;
+  padding: 40px;
+  flex-grow: 1;
+}
+
+.heading h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  font-size: 18px;
+}
+
+
+/* Information*/
+
+.info{
+  margin-bottom: 10px;
+}
+.servhead{
+  color: rgb(18, 151, 240);
+  text-decoration: underline;
+}
+
+.images{
+  display: flex;
+  gap: 20px;
+  
+}
+
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.serinfo{
+  text-align: justify;
+}
+
+.teamcard{
+  width: 300px;
+  background-color: rgb(228, 228, 219);
+  border: rgb(74, 72, 72) 1px solid;
+  border-radius: 15px;
+}
+
+.teamimg{
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.teaminfo{
+  margin: 10px;
+}
+
+.designers{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tname{
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.designation{
+  font-size: 14px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.align{
+  display: flex;
+  flex-direction: row;
+}
+
+.basic{
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+  border: #333 0.5px solid;
+  background-color:rgb(214, 203, 203);
+  list-style-type: none;
+  text-align: center;
+}
+
+.basicbtn{
+  padding: 5px 15px;
+  border: 1px black solid;
+  border-radius: 2px;
+}
+
+.basicbtn:hover{
+  background-color: #7b7b7b;
+}
+
+.benefits{
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+  border: #333 0.5px solid;
+  list-style-type: none;
+  text-align: center;
+}
+
+.premium{
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+  border: #333 0.5px solid;
+  background-color:rgb(18, 151, 240);
+  list-style-type: none;
+  text-align: center;
+}
+
+.premiumbtn{
+  padding: 5px 15px;
+  background-color: rgb(18, 151, 240);
+  border: 1px black solid;
+  border-radius: 2px;
+}
+
+.premiumbtn:hover{
+  background-color:gray;
+}
+
+.form{
+  width: 70%;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.sendbtn{
+  width: 70%;
+  height: 25px;
+  margin-bottom: 20px;
+  background-color: rgb(18, 151, 240) ;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+
+.footer{
+  height: 50px;
+  background-color:#f1f1f1;
+  color: black;
+}
